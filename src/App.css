@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.App{
+    width: 90vw;
+}
+.bar{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cit{
+    margin-left: 70px;
+}
+.cit2{
+    transform: translate(20px,0px);
+}
+.mybox{
+    transform: translate(85px,70px);
+}
+.btn1{
+    transform: translate(1270px,10px);
+    background-color: #016232;
+    width: 180px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.btn1 button{
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Selects{
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    transform: translate(80px,0px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.Chaussures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95vw;
+    margin-left: 50px;
+}  
+.marqbox{
+    transform: translate(80px, 120px);
+    width: 100%;
+    height: 40vh;
+    
+}
+.marq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forms{
+    transform: translate(50px, 100px);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards{
+    width: 348px;
 }
