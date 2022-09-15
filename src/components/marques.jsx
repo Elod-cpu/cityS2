@@ -4,7 +4,8 @@ import Nike from "../images/Nike.png";
 import Adidas from "../images/Adidas.png";
 import Reebok from "../images/Reebok.png";
 import Puma from "../images/Puma.png";
-import Asics from "../images/Asics.png";
+import Fils from "../images/Fils.jpeg";
+import Converse from "../images/Converse.jpg";
 import Vans from "../images/Vans.png";
 
 
@@ -40,10 +41,14 @@ export default class AutoPlay extends Component {
               <img src={Reebok} alt="Nike" className="logo" style={{width: 130}}/>
           </div>
           <div className="marq">
-          <img src={Asics} alt="Nike" className="logo" style={{width: 130}}/>
+          <img src={Fils} alt="Nike" className="logo" style={{width: 130}}/>
           </div>
+           <div className="marq">
+           <img src={Converse} alt="Nike" className="logo" style={{width: 130}}/>
+           </div>
         </Slider>
       </div>
     );
   }
 }
+

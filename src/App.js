@@ -4,6 +4,7 @@ import Search from './components/search';
 import Btnsearch from './components/btnsearch'
 import Marques from './components/marques';
 import Chaussures from './components/chaussures';
+import Filterone from './components/filterone';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Btnsearch/>
       <Marques/>
       <Chaussures/>
+      <Filterone/>
     </div>
   );
 }

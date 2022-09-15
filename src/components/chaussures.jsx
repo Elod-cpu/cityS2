@@ -177,6 +177,7 @@ export default function Chaussures() {
           species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
+      
       <CardActions>
         <Button size="small">Acheter</Button>
         <Button size="small">Ajouter au panier</Button>
