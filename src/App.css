@@ -13,7 +13,7 @@
     margin-left: 70px;
 }
 .cit2{
-    transform: translate(10px,0px);
+    transform: translate(25px,0px);
 }
 .mybox{
     transform: translate(60px,70px);
@@ -41,7 +41,6 @@
     margin-top: 35px;
     transform: translate(80px,0px);
 }
-
 
 .Chaussures{
     display: flex;
